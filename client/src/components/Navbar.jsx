@@ -12,7 +12,7 @@ const Navbar = () => {
 
 	return (
 		<div className="navbar">
-			<div className="py-2 px-0 flex justify-between">
+			<div className="py-2 px-4 flex justify-between">
 				<Link className="flex items-center gap-2" to={"/"}>
 					<div className="logo">
 						<h4 className="logo-text">
@@ -164,7 +164,7 @@ const Navbar = () => {
 									Write
 									<div
 										id="loginReqModal"
-										className="absolute top-0 left-0 z-20 hidden w-full bg-[#00000050] h-screen justify-center items-center">
+										className="absolute top-0 left-0 z-30 hidden w-full bg-[#00000050] h-screen justify-center items-center">
 										<div className="relative z-20 py-10 px-16 border border-teal-300 rounded-xl bg-white dark:bg-slate-900 shadow-lg shadow-teal-300 text-center flex flex-col gap-8 capitalize">
 											please Login
 											<div className="flex gap-8">

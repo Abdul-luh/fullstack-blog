@@ -56,7 +56,7 @@ const Write = () => {
 	};
 
 	return (
-		<div className="flex flex-col md:flex-row gap-5 ">
+		<div className="flex flex-col md:flex-row gap-5 md:px-6">
 			<div className="basis-3/4 flex flex-col gap-5">
 				<input
 					className="p-2 border-[1px] border-solid border-gray-400 dark:text-gray-700"

@@ -71,7 +71,7 @@ const Dashboard = ({ getText }) => {
 
 	return (
 		<div className="font-semibold capitalize flex flex-col md:flex-row mt-20 gap-6">
-			<div className="basis-1/5 flex flex-row md:flex-col justify-between md:justify-normal md:text-right items-center text-center gap-4">
+			<div className="basis-1/5 flex flex-row md:flex-col justify-between md:justify-normal md:text-right items-center text-center gap-4 mx-7">
 				<div>
 					<label
 						htmlFor="profileImg"
