@@ -29,7 +29,7 @@ const Single = ({ getText }) => {
 			}
 		};
 		fectchData();
-	}, []);
+	}, [postId, navigate]);
 
 	const handleDelete = async () => {
 		try {
